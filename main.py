@@ -43,6 +43,6 @@ def number_checker(e):
   num1 = int(document.getElementById('input1').value)
 
 if >= 75 :
-  display(f'its an even number', target='output')
+  display(f'You Passed!', target='output')
 else:
-  display(f'its an odd number', target='output')
+  display(f'You Failed..', target='output')
