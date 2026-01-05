@@ -2,10 +2,10 @@
 from pyscript import display, document
 
 
-def weather_update(e):
-  weather = lower(document.getElementById('input1').value)
+def number_checker(e):
+  num1 = int(document.getElementById('input1').value)
 
-  if weather == 'raining': 
-    display(f'Bring an umbrella', target='output')
-  else:
-    display(f'Wear your sunglasses', target='output')
+if num1 % / 2 == 0:
+  display(f'its an even number', target='output')
+else:
+  display(f'its an odd number', target='output')
