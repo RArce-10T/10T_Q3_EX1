@@ -42,7 +42,7 @@ def student_information(e):
 def number_checker(e):
   num1 = int(document.getElementById('input1').value)
 
-if > 74 :
+if >= 75 :
   display(f'its an even number', target='output')
 else:
   display(f'its an odd number', target='output')
