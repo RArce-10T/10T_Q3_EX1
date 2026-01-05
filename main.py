@@ -2,9 +2,10 @@
 from pyscript import display, document
 
 
-num1 = 9
+def weather_update(e):
+  weather = document.getElementById('input1').value
 
-if num1 > 0: # if statement
-  display(f'It is positive', target='output')
-else: # else statement
-  display(f'It is negative', target='output)
+  if weather == 'raining': -
+    display(f'Bring an umbrella', target='output')
+  else:
+    display(f'Wear your sunglasses', target='output')
