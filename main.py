@@ -38,10 +38,6 @@ def student_information(e):
     display(f'{Last_Name} {First_Name}', target='output')
     display(f'Your final grade is {fg}', target='output')
 
-
-def number_checker(e):
-  num1 = int(document.getElementById('input1').value)
-
 if fg >= 75 :
   display(f'You Passed!', target='output')
 else:
